@@ -1,0 +1,19 @@
+  4011a9:       48 83 ec 08             sub    $0x8,%rsp
+  4011ad:       be 48 23 40 00          mov    $0x402348,%esi
+  4011b2:       e8 35 00 00 00          callq  4011ec <strings_not_equal>
+  4011b7:       85 c0                   test   %eax,%eax
+  4011b9:       74 05                   je     4011c0 <phase_1+0x17>
+  4011bb:       e8 ea 01 00 00          callq  4013aa <explode_bomb>
+  4011c0:       48 83 c4 08             add    $0x8,%rsp
+  4011c4:       c3                      retq
+  4011c5:       90                      nop
+  4011c6:       90                      nop
+  4011c7:       90                      nop
+  4011c8:       90                      nop
+  4011c9:       90                      nop
+  4011ca:       90                      nop
+  4011cb:       90                      nop
+  4011cc:       90                      nop
+  4011cd:       90                      nop
+  4011ce:       90                      nop
+  4011cf:       90                      nop
