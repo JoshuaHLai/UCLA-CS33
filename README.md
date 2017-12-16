@@ -1,4 +1,4 @@
-# CS33
+# Computer-Science-33
 UCLA Computer Science 33 Spring 2016
 
 | Project       | Grade         | Due Date  | Comments                      |
